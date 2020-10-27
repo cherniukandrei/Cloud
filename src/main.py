@@ -92,7 +92,7 @@ class Handler:
 		i = 1
 		for travel in self.travels:
 			assert isinstance(travel, TravelInfo), ("[Handler.print_history] Something wrong with travel type."
-										           "Surely a programmer bug!")
+										           "Surely a programmer's bug!")
 			if not travel.is_finished():
 				continue
 
